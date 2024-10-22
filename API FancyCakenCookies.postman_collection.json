@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "a2d53e00-bc8d-42da-a183-5218351066f8",
+		"name": "API FancyCakenCookies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21158675"
+	},
+	"item": [
+		{
+			"name": "[POST] Insert Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "Name",
+							"value": "Cream Cherry",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "25000",
+							"type": "text"
+						},
+						{
+							"key": "UOM",
+							"value": "/slice",
+							"type": "text"
+						},
+						{
+							"key": "Quantity",
+							"value": "20",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/FancyCakenCookies/FancyCakenCookies/config/phprestapi.php?function=insert_product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"FancyCakenCookies",
+						"FancyCakenCookies",
+						"config",
+						"phprestapi.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "insert_product"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Get Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/FancyCakenCookies/FancyCakenCookies/config/phprestapi.php?function=get_product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"FancyCakenCookies",
+						"FancyCakenCookies",
+						"config",
+						"phprestapi.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "get_product"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Product by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/FancyCakenCookies/FancyCakenCookies/config/phprestapi.php?function=get_product_id&id=9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"FancyCakenCookies",
+						"FancyCakenCookies",
+						"config",
+						"phprestapi.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "get_product_id"
+						},
+						{
+							"key": "id",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[POST] Update Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "9",
+							"type": "text"
+						},
+						{
+							"key": "Name",
+							"value": "Cream Cherry",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "25000",
+							"type": "text"
+						},
+						{
+							"key": "UOM",
+							"value": "/slice",
+							"type": "text"
+						},
+						{
+							"key": "Quantity",
+							"value": "15",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/FancyCakenCookies/FancyCakenCookies/config/phprestapi.php?function=update_product&id=9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"FancyCakenCookies",
+						"FancyCakenCookies",
+						"config",
+						"phprestapi.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "update_product"
+						},
+						{
+							"key": "id",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[DELETE] Delete Product's Data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/FancyCakenCookies/FancyCakenCookies/config/phprestapi.php?function=delete_product&id=9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"FancyCakenCookies",
+						"FancyCakenCookies",
+						"config",
+						"phprestapi.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "delete_product"
+						},
+						{
+							"key": "id",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

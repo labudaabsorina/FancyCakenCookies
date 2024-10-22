@@ -1,0 +1,547 @@
+/*Navbar*/
+.navbar {
+	background-color: #A38343;
+	width: 100%;
+	z-index: 9999;
+	padding: 10px 0px; /*10px padding atas bawah, 0px kiri kanan*/
+}
+
+.img-kategori, .img-keranjang, .img-user {
+	cursor: pointer; /*cursor gambar tangan*/
+}
+
+.img-line {
+	cursor: default; /*cursor gambar panah*/
+}
+
+.fancy {
+	margin-left: 186px
+}
+
+.fancy .img-logo {
+	width: 110px;
+}
+/*Akhir Navbar*/
+
+body{
+	background-color: #361E0C;	
+}
+
+.jumbotron {
+	padding-top: 81px;
+	
+}
+
+.img-banner {
+	width: 1263px;
+}
+
+/*What We Offer*/
+.card{
+	border: 0px;
+	background-color: #361E0C;
+}
+.card-text{
+	width: 120px;
+}
+
+/*Akhir What We Offer*/
+
+/*Our Products*/
+.carousel {
+	position: relative;
+	top: 0;
+}
+
+.btn-buy {
+	width: 100px;
+	background-color: #A38343;
+}
+/*Akhir Our Products*/
+
+/*About Us*/
+.aboutus-2 {
+	padding: 300px 50px;
+}
+
+.life {
+	margin: 250px 0px;
+}
+/*Akhir About Us*/
+
+.img-banner-2{
+	width: 1263px;
+	top: 100px;
+}
+/*footer*/
+
+.footer {
+	background-color: #A38343;
+}
+
+.img-logo{
+	width: 200px;
+}
+
+
+.footer span{
+	 font-size: 20px; 
+	
+}
+
+.footer .cempakaputih{
+	font-size: 16px;
+}
+
+/* Login */
+
+.body-login{
+	background-image: url(img/bglogin.png);
+	display: inline-block;
+}
+
+.login{
+	margin-left: 100px;
+	margin-top: 320px;
+}
+
+.signin{
+	font-size: 50px;
+}
+
+.tombol{
+	width: 80%;
+	
+}
+
+/* Register */
+.body-register{
+	background-image: url(img/bglogin.png);
+	display: inline-block;
+}
+
+.register{
+	margin-left: 100px;
+	margin-top: 280px;
+}
+
+.textregister{
+	font-size: 50px;
+}
+
+.tombolregister{
+	width: 80%;
+	
+}
+
+/* login seller */
+.body-login-seller{
+	background-image: url(img/WelcomeSeller.png);
+	display: inline-block;
+}
+/* register seller */
+.body-register-seller{
+	background-image: url(img/WelcomeSeller.png);
+	display: inline-block;
+}
+
+/* Deskripsi kue */
+.container-fluid-deskrip{
+	margin-top: 220px;
+}
+
+.list-group-item {
+	background: none;
+	border: 0px solid #A38343;
+	width: 70%;
+	color: #FFC793;
+}
+
+a:hover.list-group-item {
+	background: none;
+	width: 70%;
+	color: white;
+}
+
+.nama-kue{
+	color:#FFC793
+}
+.btn-light{
+	width: 2%;
+	padding-top: 0,5px;
+	background-color: white;
+}
+
+.btn-chocolate{
+	width: 2%;
+	background-color: #8b511b;
+
+}
+
+.shop-kategori{
+	color: #FFC793;
+}
+
+.btn-group{
+	width: 100%;
+	border: 2px solid #A38343;
+
+}
+
+.menukue ul{
+	margin: 0px;
+	padding: 5px;
+	display: block;
+	background: none;
+}
+
+.menukue ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.menukue ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	color:#E8E8E8;
+
+}
+
+.menukue ul li a:hover{
+	display: block;
+	background: #A38343;
+	color: #FFC793;
+
+}
+.menukue ul li .dropdown{
+	display: none;
+}
+
+.menukue ul li:hover .dropdown{
+	display: block;
+	background: #A38343;
+	position:absolute;
+	width: 150px;
+}
+
+.menukue ul li:hover .dropdown li{
+	display: block;
+}
+
+.halaman .page1{
+	background-color: #8b511b;
+	cursor: pointer;
+}
+.halaman .page2{
+	background-color:aliceblue;
+	cursor: pointer;
+}
+.halaman .page3{
+	background-color:aliceblue;
+	cursor: pointer;
+}
+
+/*ccc*/
+.btn-buy2 {
+	width: 100px;
+	background-color: #A38343;
+}
+
+.btn-buy3 {
+	width: 50px;
+	background-color: #A38343;
+}
+
+/*ceheckout*/
+
+.button-cekout{
+	border-radius: 30%;
+	color:#FFC793
+}
+
+.cake1{
+	color: #FFC793;
+}
+
+.warna-shopping{
+	background-color:#FFC793;
+	
+}
+.warna-detail{
+	background-color: #E8E8E8;
+}
+.urutan-cart .bi{
+	background-color: #CBA493;
+
+}
+.checkout .menu1 .berry{
+	width: 30%;
+	margin: 0 10px;
+}
+.menu1{
+	background-color: #A38343;
+}
+
+.img-cancel{
+	background-color:#FFC793;
+}
+
+.btn-cekout{
+	display: inline-flex;
+	border: 1px solid #E8E8E8;
+	border-radius: 4px;
+}
+
+.button{
+	padding: 6px 15px;
+	outline: none;
+	border: none;
+	border-right: 1px solid #E8E8E8;
+	background: #E8E8E8;
+}
+
+.button:last-child{
+	border-right: none;
+}
+
+.button:hover{
+	background: #A38343;
+}
+
+.garis .center-line{
+	margin-top: 50px;
+	position: absolute;
+	height: 50%;
+	width: 4px;
+	/* background: #524836; */
+	background: rgb(87, 63, 33);
+	left: 50%;
+	transform: translateX(-60%);
+}
+.vcr{
+	color: white;
+	font-size: 20px;
+}
+
+.cart-update .img-vcr{
+	background-color: #FFC793;
+}
+
+
+.btn-back{
+	background: #FFC793;
+	width: 160px;
+	border:none;
+	border-radius: 10px;
+	
+}
+
+.btn-next{
+	background: #FFC793;
+	width: 100px;
+	border:none;
+	border-radius: 10px;
+	margin: 0 5px
+}
+
+.input-cart input{
+	background: #361E0C;
+	border: none;
+	outline: none;
+}
+
+.input-cart input::placeholder{
+	color:white;
+
+}
+.cl-vcr{
+	color: white;
+}
+
+.note{
+	width: 200px;
+}
+
+.btn-claim{
+	background-color: #8b511b;
+	border: none;
+	width: 90%;
+}
+
+input[textarea]{
+	width: 500px;
+}
+
+
+/* details order  */
+.warna-shopping-1, .warna-detail-2{
+	background-color: #E8E8E8;
+	
+}
+.warna-detail-1{
+	background-color: #FFC793;
+}
+.container-details{
+	margin-top: 150px;
+}
+.urutan-cart-1 .bi-1{
+	background-color: #CBA493;
+	
+
+}
+.judul{
+	margin-top: 30px;
+}
+.details{
+	margin-left: 100px;
+}
+.form-control {
+	width: 80%;
+}
+.form-select{
+	width: 35%;
+}
+.btn-save{
+	background-color: #FFC793;
+	border: none;
+}
+
+/* order complete */
+.menutulisan{
+	width: 50%;
+}
+.menu2{
+	width: 90%;
+	margin-left: 10%;
+	background-color: #A38343;
+}
+
+.btn-payment{
+	background:#bd9c5b;
+	width: 65px;
+	border:black;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.total-akhir{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;	
+}
+
+.warna-detail2{
+	background-color:#E8E8E8;
+}
+
+.warna-detail3{
+	background-color: #FFC793;
+}
+.warna-shopping2{
+	background-color: #E8E8E8;
+}
+
+.price-shipment{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.price-total{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.checkout{
+	padding: 0px 50px;
+}
+
+.checkout-2{
+	padding: 0px 50px;
+}
+
+/*Katalog pembeli */
+
+.table-pembeli{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border-collapse: collapse;
+	min-width: 400px;
+	color:#361E0C;
+	margin: auto;
+	position: relative;
+
+}
+.table-pembeli thead tr{
+	background-color:#b97d44;
+	color:#361E0C;
+	text-align: center;
+}
+
+.table-pembeli th,
+.table-pembeli td{
+	padding: 7px 17px;
+}
+
+.table-pembeli tbody tr { /*warna kolom bawah*/
+	background-color: #DFC773;
+	border-bottom: 1px solid white;
+}
+
+.tanggal{
+	color:#b97d44 ;
+}
+
+
+/*Katalog Penjual*/
+
+.Size{
+	color: #b97d44;
+}
+
+/*logOut*/
+.btn-Update{
+	background:#361E0C;
+	width: 100px;
+	border-color: #FFC793;
+	border-radius: 10px;
+	font-size: 20px;
+	color:antiquewhite;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-next2{
+	background: #FFC793;
+	width: 100px;
+	border:none;
+	border-radius: 10px;
+	margin: 0 20px;
+	font-size: 20px;
+	color:#bd9c5b;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* testt */
+h2{
+	color: #ffffff;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#saveimg{
+	width: 20px;
+	height: 20px;
+}
+table tr td input{
+	width: 40px;
+}
